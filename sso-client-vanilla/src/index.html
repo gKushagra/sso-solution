@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/lib-sso1.0.0.css">
+    <title>SSO</title>
+</head>
+
+<body>
+    <div id="sso-auth"></div>
+    <script src="assets/lib-sso1.0.0.js"></script>
+    <script>
+        /*
+         *  Usage -
+         *  @arg1 div id in which SSO Element will be rendered
+         *  @arg2 app name for redirect
+         */
+        let ssoEl = new SSOElement("sso-auth", "doc-editor");
+        ssoEl.initialize();
+    </script>
+</body>
+
+</html>
