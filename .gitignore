@@ -1,8 +1,9 @@
 # Node.js
 /sso-backend/node_modules
 /sso-backend/.DS_Store
+/sso-backend/.env
 
-# Angular
+# React
 /sso-client-react/node_modules
 /sso-client-react/.pnp
 /sso-client-react/.pnp.js
