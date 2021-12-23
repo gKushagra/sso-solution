@@ -1,0 +1,136 @@
+.page {
+  width: 100% !important;
+  height: 100vh !important;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.box {
+  width: 31%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 3%;
+  background-color: #ffffff;
+}
+
+.box-row {
+  width: 93%;
+  margin: 2% 0.5% 2% 0.5%;
+  padding: 3%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.box-control-row {
+  width: 97%;
+  margin: 1% 0.5% 1% 0.5%;
+  padding: 2%;
+}
+
+.box-title-row {
+  width: 93%;
+  margin: 5% 0.5% 5% 0.5%;
+  padding: 3%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-msg-row {
+  width: 93%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-footer-row {
+  width: 97%;
+  margin: 2% 0.5% 2% 0.5%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.box-footer-row-item {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-btn {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  outline: none;
+  letter-spacing: 0.5px;
+}
+
+.custom-btn:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.spacer {
+  width: 5% !important;
+}
+
+.text-blue {
+  color: #2962ff;
+}
+
+.extra-options {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.25px;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+}
+
+.error {
+  color: #dd2c00;
+  letter-spacing: 0.5px;
+}
+
+.error-outline {
+  border-color: #dd2c00 !important;
+  outline: 0 !important;
+  box-shadow: 0 0 0 0.25rem rgb(221 44 0 / 25%) !important;
+}

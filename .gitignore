@@ -1,0 +1,27 @@
+# Node.js
+/sso-backend/node_modules
+/sso-backend/.DS_Store
+
+# Angular
+/sso-client-react/node_modules
+/sso-client-react/.pnp
+/sso-client-react/.pnp.js
+/sso-client-react/build
+/sso-client-react/coverage
+/sso-client-react/.DS_Store
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# System Files
+.DS_Store
+Thumbs.db
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
